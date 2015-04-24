@@ -1,0 +1,12 @@
+dist.awk: Per convertire un file che definisce una distribuzione normalizzata
+a 1 in uno che definisce la medesima distribuzione normalizzata a 65535.
+Notare che, causa arrotondamenti la somma potrebbe nn fare 65535, quindi
+bisogna poi metterci le mani per aggiungere i numeri che mancano. (io
+aggiungevo la cifra mancante dividendola tra i due numeri con probabilita`
+maggiore)
+
+getprob.awk: Usare getprob per interpretare l'output di "main" e intercettare
+solo la colonna delle probabilita`
+
+pdf2cdf.awk: Usare pdf2cdf su un file pdf uscito dalle simulazioni per
+ottenere cdf=1-pdf

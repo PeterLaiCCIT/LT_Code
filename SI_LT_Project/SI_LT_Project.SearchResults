@@ -1,0 +1,4 @@
+---- m_o Matches (3 in 1 files) ----
+Random_generator.cpp:static const uint16_t m_o = 0x6996;
+Random_generator.cpp:            m_seed |= ((m_o>>t)&0x0001);
+Random_generator.cpp://     out = ((m_o>>t)&0x0001);

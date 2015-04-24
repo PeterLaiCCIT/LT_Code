@@ -1,0 +1,11 @@
+echo "This takes a while, be patient..."
+
+my-decoder 16 25 distr/Distr_16.dd complexity_GF2.txt 0 10000
+my-decoder 24 25 distr/Distr_24.dd complexity_GF2.txt 0 10000
+my-decoder 32 25 distr/Distr_32.dd complexity_GF2.txt 0 10000
+my-decoder 40 25 distr/Distr_40.dd complexity_GF2.txt 0 10000
+my-decoder 48 25 distr/Distr_48.dd complexity_GF2.txt 0 10000
+my-decoder 56 25 distr/Distr_56.dd complexity_GF2.txt 0 10000
+my-decoder 64 25 distr/Distr_64.dd complexity_GF2.txt 0 10000
+my-decoder 72 25 distr/Distr_72.dd complexity_GF2.txt 0 10000
+my-decoder 80 25 distr/Distr_80.dd complexity_GF2.txt 0 10000
