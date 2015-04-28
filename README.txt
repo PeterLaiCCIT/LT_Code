@@ -86,4 +86,4 @@ recommend using Windows for this type of things you are of course free to do it.
 
 Have fun,
 
-Michele Rossi, 31th of March 2010   //read by me
+Michele Rossi, 31th of March 2010   //hello world
